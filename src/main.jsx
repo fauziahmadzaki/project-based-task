@@ -1,11 +1,10 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { RouterProvider } from "react-router/dom";
 import { createBrowserRouter } from "react-router";
 import FauziPage from "./pages/Fauzi.jsx";
-import WidanPage from "./pages/Widan.jsx";
+import ProfileWidan from "./pages/Widan.jsx";
 import IndahPage from "./pages/Indah.jsx";
 
 const router = createBrowserRouter([
@@ -19,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/widan-ababil",
-    element: <WidanPage />,
+    element: <ProfileWidan />,
   },
   {
     path: "/indah-brilian",
