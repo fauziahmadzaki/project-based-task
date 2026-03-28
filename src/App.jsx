@@ -15,6 +15,14 @@ function App() {
         Lihat Profil Widan
       </Link>
 
+      {/* Tombol ke profil indah */}
+       <Link
+        to="/indah-brilliant"
+        className="bg-red-700 hover:bg-red-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1"
+      >
+        Lihat Profil Indah
+      </Link>
+
       {/* tinggal nambahin tombol kalian di bawah sini */}
     </div>
   );
