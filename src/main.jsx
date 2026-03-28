@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <ProfileWidan />,
   },
   {
-    path: "/indah-brilian",
+    path: "/indah-brilliant",
     element: <IndahPage />,
   },
 ]);
