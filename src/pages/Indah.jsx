@@ -1,9 +1,13 @@
+import { Link } from "react-router";
+
 const profileImg = "/brill.jpeg";
 
 export default function IndahPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-950 via-red-900 to-black flex items-center justify-center p-5">
+    <div className="min-h-screen bg-gradient-to-br from-red-950 via-red-900 to-black flex flex-col items-center justify-center p-5 gap-10">
       
+     <Link to={"/"} className="bg-white px-2 py-2 rounded-lg border-2 border-red-900">Kembali</Link>
+
       {/* Card Putih */}
       <div className="bg-white shadow-2xl rounded-3xl p-8 max-w-md w-full text-center transition duration-500 hover:scale-105 hover:shadow-red-900/40">
         
